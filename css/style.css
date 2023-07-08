@@ -9,28 +9,35 @@
 body {
   font-family: "Open Sans", sans-serif;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #181818;
+}
 .container {
-  width: 80%;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 p {
   font-size: 18px;
   font-weight: 400;
-  color: #868585;
+  color: #757575;
   line-height: 30px;
 }
 
 /* header start  */
 header {
-  max-height: 840px;
+  max-height: 850px;
   margin-bottom: 100px;
   background-color: #fff8f3;
   background-image: url(../images/developer.png), url(../images/header_bg.png);
   background-repeat: no-repeat, no-repeat;
   background-position: left 30px top 30px, right bottom;
-  background-size: 100px 640px, 800px;
+  background-size: 100px 570px, 800px;
 }
 
 nav {
@@ -115,6 +122,13 @@ nav ul li a:hover {
   margin: 20px 0;
 }
 
+.btn {
+  background-color: #fff;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  margin-left: 20px;
+}
+
 .b-img {
   width: 50%;
 }
@@ -122,8 +136,146 @@ nav ul li a:hover {
 .b-img img {
   width: 80%;
   margin-left: 250px;
+  margin-bottom: -5px;
 }
 
 /* banner end  */
 
 /* header end  */
+
+/* about section start  */
+.about {
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 110px;
+}
+
+.about h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.about p {
+  margin: 30px 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex > div > h6 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #757575;
+}
+
+.flex > div > h5 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+/* about section start  */
+
+/* what i do section  start */
+.what-i-do {
+  margin: 100px 0;
+}
+
+.do {
+  text-align: center;
+}
+
+.do > h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.do > p {
+  margin: 20px 110px;
+}
+
+.flex-2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 50px;
+}
+
+.flex-child {
+  width: 24%;
+  padding: 20px;
+  box-shadow: 0px 0px 5px #e4e0e0;
+  border-radius: 5px;
+}
+
+.flex-heading {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+  margin: 20px 0px 10px 0;
+}
+/* what i do section   end*/
+
+/* summary section start  */
+
+.summary-container {
+  margin-bottom: 100px;
+}
+
+.summary-container > button {
+  display: block;
+  margin: 20px auto;
+}
+.summary-heading {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+
+.summary-discription {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-left {
+  width: 49%;
+}
+
+.summary-left > h4,
+.summary-right > h4 {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.summary-right {
+  width: 49%;
+}
+
+.box {
+  margin-bottom: 20px;
+}
+.box > h5 {
+  font-size: 25px;
+  color: #474747;
+  font-weight: 700;
+}
+
+.box > h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+  margin: 15px 0 20px 0;
+}
+
+.box > p {
+  padding-right: 90px;
+  font-size: 16px;
+}
+.box > hr {
+  color: #d1d1d1;
+  margin-top: 20px;
+}
+/* summary section end  */
