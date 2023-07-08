@@ -202,8 +202,8 @@ nav ul li a:hover {
 }
 
 .flex-child {
-  width: 24%;
-  padding: 20px;
+  width: 23%;
+  padding: 20px 45px 20px 20px;
   box-shadow: 0px 0px 5px #e4e0e0;
   border-radius: 5px;
 }
@@ -213,6 +213,10 @@ nav ul li a:hover {
   font-weight: 700 !important;
   color: #000 !important;
   margin: 20px 0px 10px 0;
+}
+
+.flex-child > p {
+  font-size: 16px !important;
 }
 /* what i do section   end*/
 
@@ -279,3 +283,58 @@ nav ul li a:hover {
   margin-top: 20px;
 }
 /* summary section end  */
+
+footer {
+  background-color: #fff8f3;
+  padding: 100px 0;
+}
+.footer-container {
+  display: flex;
+}
+.footer-left {
+  width: 60%;
+}
+
+.footer-left > h3,
+.footer-right > h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.footer-left > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin: 20px 110px 15px 0px;
+}
+.icon > i {
+  color: #fd6e0a;
+  padding: 0px 5px;
+}
+
+.footer-right {
+  width: 40%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+}
+
+input::placeholder {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+textarea::placeholder {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
